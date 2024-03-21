@@ -1,9 +1,9 @@
 import random
 
-class Card:
-    def __init__(self, value, suit):
-        self.value = value
-        self.suit = suit
+class Carta:
+    def _init_(self, valor, naipe):
+        self.valor = valor
+        self.naipe = naipe
 
-    def __str__(self):
-        return f"{self.value} of {self.suit}"
+    def _str_(self):
+        return f"{self.valor} de {self.naipe}"
